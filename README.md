@@ -1,10 +1,10 @@
 # Mobile Order-Fulfillment Robotic System for Warehouse Automation
 
-An archival mobile-manipulation prototype for multi-item order fulfillment. The system integrates order planning, mobile navigation, RGB-D perception, UR5 manipulation, and suction grasping in a real warehouse-style environment.
+An end-to-end mobile-manipulation system for multi-item order fulfillment. It integrates warehouse task planning, mobile navigation, RGB-D perception, UR5 manipulation, and suction grasping in a real warehouse environment.
 
-[![Watch the warehouse robot demo](https://img.youtube.com/vi/gZjYgG2KMVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=gZjYgG2KMVY)
+[![Watch the warehouse robot demo](https://img.youtube.com/vi/gZjYgG2KMVY/hqdefault.jpg)](https://www.youtube.com/watch?v=gZjYgG2KMVY)
 
-**[Watch the system demo](https://www.youtube.com/watch?v=gZjYgG2KMVY)**
+**[Watch the end-to-end system demo](https://www.youtube.com/watch?v=gZjYgG2KMVY)**
 
 **Resources:** [Demo video](https://www.youtube.com/watch?v=gZjYgG2KMVY) · [Unpublished technical report](./mobile_order_fulfillment_technical_report_2020.pdf)
 
@@ -54,8 +54,16 @@ Robotic-System/
 - OpenCV, PCL, and Kinect V2
 - UR5 manipulator with a suction gripper
 
-## Project Status
+## How to Cite
 
-This repository is an archival snapshot of a 2018–2019 team research prototype and is not actively maintained. The released source is platform-specific and does not include every custom message, detector model, calibration file, hardware interface, or experiment configuration required to reproduce the complete system. It should be treated as an implementation reference rather than a turnkey robotics package.
+The report is unpublished, so please cite it together with this repository:
 
-No open-source license has been specified. Please contact the authors before reusing or redistributing the code.
+```bibtex
+@techreport{zhou2020mobileorderfulfillment,
+  author = {Zhou, Liguang and Huang, Yanwei and Zhu, Yiyao and Zhou, Pizeng and Sun, Zhenglong and Chen, Yongquan and Xu, Yangsheng},
+  title  = {A Mobile Order Fulfillment Robotic System for Warehouse Automation},
+  year   = {2020},
+  type   = {Unpublished technical report},
+  note   = {Available at \url{https://github.com/zyy721/Robotic-System_Warehouse}}
+}
+```
