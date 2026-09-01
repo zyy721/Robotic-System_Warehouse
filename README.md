@@ -27,6 +27,16 @@ A mobile-manipulation system for multi-item order fulfillment. It integrates war
 - MoveIt motion planning
 - OpenCV and PCL perception
 
+## Experimental Results
+
+| Evaluation | Setting | Result |
+| --- | --- | --- |
+| WMS planning | 2,000 randomized task sets with 5-20 items | 57.94% lower average time cost and 0.71 fewer visited stations than sequential execution |
+| Object perception | 2,812 RGB images covering 15 retail objects | 0.992 mAP with YOLOv3-416 |
+| Real-robot picking | 12 orders with 10 target items each | 103/120 successful picks (85.8%); 3/12 orders completed in full |
+
+Detailed per-object results and the system setup are available in the [technical report](./mobile_order_fulfillment_technical_report_2020.pdf).
+
 ## My Contribution
 
 This was a collaborative team project. I contributed to the development and integration of the real-robot prototype. The released source is a team-code snapshot and does not imply sole authorship.
@@ -45,14 +55,6 @@ Robotic-System/
 ├── CMakeLists.txt
 └── package.xml
 ```
-
-## Original Software Stack
-
-- Ubuntu 16.04 and ROS Kinetic
-- C++11 and catkin
-- MoveIt
-- OpenCV, PCL, and Kinect V2
-- UR5 manipulator with a suction gripper
 
 ## How to Cite
 
