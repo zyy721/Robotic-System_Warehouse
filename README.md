@@ -41,21 +41,6 @@ Detailed per-object results and the system setup are available in the [technical
 
 This was a collaborative team project. I contributed to the development and integration of the real-robot prototype. The released source is a team-code snapshot and does not imply sole authorship.
 
-## Repository Structure
-
-```text
-Robotic-System/
-├── include/                 # Perception, device, and robot-control interfaces
-├── src/
-│   ├── pic_recognize.cpp    # RGB-D and point-cloud processing
-│   ├── robot_control.cpp    # UR5 and MoveIt manipulation
-│   ├── device_controler.cpp # Mobile base, lift, and suction interfaces
-│   ├── decision_maker.cpp   # Picking decisions
-│   └── task_receiver.cpp    # ROS task coordination
-├── CMakeLists.txt
-└── package.xml
-```
-
 ## How to Cite
 
 The report is unpublished, so please cite it together with this repository:
