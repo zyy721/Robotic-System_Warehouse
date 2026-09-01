@@ -1,10 +1,10 @@
 # Mobile Order-Fulfillment Robotic System for Warehouse Automation
 
-An end-to-end mobile-manipulation system for multi-item order fulfillment. It integrates warehouse task planning, mobile navigation, RGB-D perception, UR5 manipulation, and suction grasping in a real warehouse environment.
+A mobile-manipulation system for multi-item order fulfillment. It integrates warehouse task planning, mobile navigation, RGB-D perception, UR5 manipulation, and suction grasping in a real warehouse environment.
 
 [![Watch the warehouse robot demo](https://img.youtube.com/vi/gZjYgG2KMVY/hqdefault.jpg)](https://www.youtube.com/watch?v=gZjYgG2KMVY)
 
-**[Watch the end-to-end system demo](https://www.youtube.com/watch?v=gZjYgG2KMVY)**
+**[Watch the system demo](https://www.youtube.com/watch?v=gZjYgG2KMVY)**
 
 **Resources:** [Demo video](https://www.youtube.com/watch?v=gZjYgG2KMVY) · [Unpublished technical report](./mobile_order_fulfillment_technical_report_2020.pdf)
 
@@ -29,7 +29,7 @@ An end-to-end mobile-manipulation system for multi-item order fulfillment. It in
 
 ## My Contribution
 
-This was a collaborative team project. I contributed to the development and integration of the end-to-end real-robot prototype. The released source is a team-code snapshot and does not imply sole authorship.
+This was a collaborative team project. I contributed to the development and integration of the real-robot prototype. The released source is a team-code snapshot and does not imply sole authorship.
 
 ## Repository Structure
 
