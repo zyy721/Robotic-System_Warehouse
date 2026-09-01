@@ -4,7 +4,7 @@ An archival mobile-manipulation prototype for multi-item order fulfillment. The 
 
 [![Watch the warehouse robot demo](https://img.youtube.com/vi/gZjYgG2KMVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=gZjYgG2KMVY)
 
-**[Watch the end-to-end system demo](https://www.youtube.com/watch?v=gZjYgG2KMVY)**
+**[Watch the system demo](https://www.youtube.com/watch?v=gZjYgG2KMVY)**
 
 **Resources:** [Demo video](https://www.youtube.com/watch?v=gZjYgG2KMVY) · [Unpublished technical report](./mobile_order_fulfillment_technical_report_2020.pdf)
 
