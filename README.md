@@ -2,7 +2,7 @@
 
 An archival mobile-manipulation prototype for multi-item order fulfillment. The system integrates order planning, mobile navigation, RGB-D perception, UR5 manipulation, and suction grasping in a real warehouse-style environment.
 
-[![Watch the warehouse robot demo](https://img.youtube.com/vi/gZjYgG2KMVY/hqdefault.jpg)](https://www.youtube.com/watch?v=gZjYgG2KMVY)
+[![Watch the warehouse robot demo](https://img.youtube.com/vi/gZjYgG2KMVY/maxresdefault.jpg)](https://www.youtube.com/watch?v=gZjYgG2KMVY)
 
 **[Watch the end-to-end system demo](https://www.youtube.com/watch?v=gZjYgG2KMVY)**
 
